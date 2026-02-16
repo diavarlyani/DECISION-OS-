@@ -11,6 +11,8 @@ export interface DataFile {
   type: 'structured' | 'unstructured';
   format: string;
   content: any;
+  parsedData?: any[];
+  headers?: string[];
   size: number;
   timestamp: number;
   isPrimary?: boolean;
@@ -64,4 +66,6 @@ export interface AppState {
   subTab: 'live' | 'predictive';
   isPlayingAudio: boolean;
   proactiveBrief: StrategicBrief | null;
+  isLoadingStock: boolean;
+  error: string | null;
 }
