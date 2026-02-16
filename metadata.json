@@ -1,0 +1,7 @@
+{
+  "name": "Nexus OS | CEO Assistant",
+  "description": "Elite decision intelligence platform for C-suite executives, featuring proactive agentic AI, live financial streams, and operational forecasting.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
