@@ -5,24 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:server": "node server/index.js",
-    "dev:all": "concurrently \"npm run dev\" \"npm run dev:server\"",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@google/genai": "^1.41.0",
-    "axios": "^1.7.9",
     "react-dom": "^19.2.4",
-    "react": "^19.2.4",
-    "xlsx": "^0.18.5"
+    "react": "^19.2.4"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
-    "concurrently": "^9.1.0",
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
